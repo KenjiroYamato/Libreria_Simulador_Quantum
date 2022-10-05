@@ -3,7 +3,7 @@ import lib_Quantum.drills as lib_q
 if __name__ == '__main__':  
 
     #____________________________________________
-    opcion = 2 #<<<<<<<<<<< Cambia La Opcion Acá
+    opcion = 1 #<<<<<<<<<<< Cambia La Opcion Acá
     #___________________________________________
 
     nRnC = int(input("numero de Filas y Columnas del Sistemas:   ")) 

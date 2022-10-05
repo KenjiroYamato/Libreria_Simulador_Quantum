@@ -20,12 +20,12 @@ def matrizGenCpx(n):
 
 def stateGen(n):
     """Genera un vector de n x 1 lados vacio"""
-    matriz = [int(input(f"estado número {x}: \n")) for x in range(n)]
+    matriz = [float(input(f"estado número {x}: \n")) for x in range(n)]
     return matriz
 
 def stateGenCpx(n):
     """genera un vector de n x 1 lados Con tuplas (a, b) con a parte real = 0 y b parte imaginaria = 0"""
-    matriz = [(int(input(f"estado número {x}: \n")),0) for x in range(n)]     
+    matriz = [(float(input(f"estado número {x}: \n")),0) for x in range(n)]     
     return matriz    
  
 def directionMarbles(mtrx):
